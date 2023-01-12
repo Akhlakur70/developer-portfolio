@@ -27,6 +27,17 @@
     border-radius: 5px;
     background: #FD6E0A;
     padding: 18px 35px;
+    margin-right: 10px;
+}
+.btn-second {
+    border: 0;
+    color: #FD6E0A;
+    font-weight: 700;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 18px 35px;
+
 }
 
 nav {
@@ -90,6 +101,7 @@ nav li {
     font-size: 35px;
     margin-bottom: 50px;
     text-align: center;
+    line-height: 48px;
     
 
 
@@ -99,6 +111,8 @@ nav li {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    text-align: center;
+
  }
 
  .about-info-container {
@@ -174,3 +188,28 @@ nav li {
      margin-top: 50px;
      text-align: center;
  }
+ /* contact styles */
+ .contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+ }
+
+ .contact .section-title {
+       text-align: left;
+ }
+ .contact input[type="text"], input[type="email"], textarea {
+         margin-bottom: 24px;
+         border: 0;
+         width: 100%;
+         padding: 18px 30px;
+ }
+ .contact a {
+    text-decoration: none;
+    width: 120px;
+    height: 24px;
+    padding-left: 10px;
+
+ }
+
